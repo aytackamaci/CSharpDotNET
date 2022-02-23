@@ -1,0 +1,15 @@
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/bin/Debug/net6.0/TopLevelProgram
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/bin/Debug/net6.0/TopLevelProgram.deps.json
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/bin/Debug/net6.0/TopLevelProgram.runtimeconfig.json
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/bin/Debug/net6.0/TopLevelProgram.dll
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/bin/Debug/net6.0/ref/TopLevelProgram.dll
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/bin/Debug/net6.0/TopLevelProgram.pdb
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/TopLevelProgram.csproj.AssemblyReference.cache
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/TopLevelProgram.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/TopLevelProgram.AssemblyInfoInputs.cache
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/TopLevelProgram.AssemblyInfo.cs
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/TopLevelProgram.csproj.CoreCompileInputs.cache
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/TopLevelProgram.dll
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/ref/TopLevelProgram.dll
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/TopLevelProgram.pdb
+/Users/hova/Code/Chapter01-vscode/TopLevelProgram/obj/Debug/net6.0/TopLevelProgram.genruntimeconfig.cache

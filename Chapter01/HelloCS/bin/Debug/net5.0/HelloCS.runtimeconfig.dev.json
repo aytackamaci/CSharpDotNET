@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/hova/.dotnet/store/|arch|/|tfm|",
+      "/Users/hova/.nuget/packages"
+    ]
+  }
+}
