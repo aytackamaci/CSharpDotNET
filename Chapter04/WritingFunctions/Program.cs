@@ -1,6 +1,9 @@
 ﻿using static System.Console;
 
 TimesTable(number: 6);
+RunFactorial();
+//RunFibImperative();
+RunFibFunctional();
 
 static void TimesTable(byte number)
 {
@@ -77,4 +80,86 @@ static string CardinalToOrdinal(int number)
             };
         return $"{number}{suffix}";
     }
+}
+
+static int Factorial(int number) 
+{
+    if (number < 1) 
+    {
+        return 0;
+    } 
+    else if (number == 1) 
+    {
+        return 1;
+    }
+    else 
+    {
+        checked
+        {
+            return number * Factorial(number - 1);
+        }
+        
+    }
+}
+
+static void RunFactorial() 
+{
+    for (int i = 1; i < 15; i++)
+    {
+        try
+        {
+            WriteLine($"{i}! = {Factorial(i):N0}");
+        }
+        catch (System.OverflowException)
+        {
+            WriteLine($"{i}! is too big for a 32-bit integer.");
+        }
+        
+    }
+}
+
+static int FibImperative(int term)
+{
+    if (term == 1)
+    {
+        return 0; 
+    }
+    else if (term == 2)
+    {
+        return 1; 
+    }
+    else
+    {
+        return FibImperative(term - 1) + FibImperative(term - 2);
+    } 
+}
+
+static void RunFibImperative()
+{
+    for (int i = 1; i <= 30; i++)
+    {
+        WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
+        arg0: CardinalToOrdinal(i),
+        arg1: FibImperative(term: i));
+    } 
+}
+
+
+static int FibFunctional(int term) =>
+    term switch
+    {
+        1 => 0,
+        2 => 1,
+        _ => FibFunctional(term - 1) + FibFunctional(term - 2)
+    };
+
+
+static void RunFibFunctional()
+{
+    for (int i = 1; i <= 30; i++)
+    {
+        WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
+        arg0: CardinalToOrdinal(i),
+        arg1: FibFunctional(term: i));
+    } 
 }
