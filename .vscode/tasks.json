@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Chapter01/HelloCS/HelloCS.csproj",
+                "${workspaceFolder}/Chapter04/Debugging/Debugging.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Chapter01/HelloCS/HelloCS.csproj",
+                "${workspaceFolder}/Chapter04/Debugging/Debugging.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Chapter01/HelloCS/HelloCS.csproj"
+                "${workspaceFolder}/Chapter04/Debugging/Debugging.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

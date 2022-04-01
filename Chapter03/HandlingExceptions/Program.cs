@@ -5,6 +5,10 @@ Write("What is your age?");
 
 string? input = ReadLine();
 
+if (input == null) {
+    input = "15";
+}
+
 try 
 {
     int age = int.Parse(input);
@@ -24,6 +28,11 @@ WriteLine("After parsing");
 
 Write("Enter an amount: ");
 string? amount = ReadLine();
+
+if (amount == null) {
+    amount = "15";
+}
+
 try
 {
     decimal amountValue = decimal.Parse(amount);

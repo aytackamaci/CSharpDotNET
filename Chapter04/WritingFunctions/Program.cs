@@ -2,8 +2,9 @@
 
 TimesTable(number: 6);
 RunFactorial();
-//RunFibImperative();
+RunFibImperative();
 RunFibFunctional();
+CalculateTax(0.2M, "CH");
 
 static void TimesTable(byte number)
 {

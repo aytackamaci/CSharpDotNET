@@ -2,9 +2,6 @@
 //s#error versions
 using System.Reflection;
 
-System.Data.DataSet ds;
-HttpClient client;
-
 Assembly? assembly = Assembly.GetEntryAssembly();
 if (assembly == null) return;
 // loop through the assemblies that this app references
