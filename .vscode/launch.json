@@ -11,9 +11,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Chapter04/Instrumenting/bin/Debug/net6.0/Instrumenting.dll",
+            "program": "${workspaceFolder}/Chapter04/PrimeFactors/PrimeFactorsConsole/bin/Debug/net6.0/PrimeFactorsConsole.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Chapter04/Instrumenting",
+            "cwd": "${workspaceFolder}/Chapter04/PrimeFactors/PrimeFactorsConsole",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
