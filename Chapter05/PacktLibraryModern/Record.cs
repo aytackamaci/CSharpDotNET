@@ -22,9 +22,5 @@ public record ImmutableAnimal
         Name = name;
         Species = species;
     }
-    public void Deconstruct(out string name, out string species)
-    {
-        name = Name;
-        species = Species;
-    }
+
 }
